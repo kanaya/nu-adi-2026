@@ -20,7 +20,7 @@ class CrazyParticle extends Particle {
   void update() {
     super.update();
     // Increment rotation based on horizontal velocity
-    float theta_vel = (velocity.x * velocity.mag()) / 10.0f;
+    float theta_vel = (velocity.x * velocity.mag()) / 2.0f;
     theta += theta_vel;
   }
 
